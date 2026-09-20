@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SpeechAudioLM: bidirectional generation between environmental audio and speech.">
+  <title>SpeechAudioLM</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="topbar">
+    <a class="wordmark" href="#top" aria-label="SpeechAudioLM home"><span class="mark">SA</span> SpeechAudioLM</a>
+    <nav aria-label="Primary navigation">
+      <a href="#contributions">Overview</a><a href="#results">Results</a><a href="#examples">Examples</a>
+      <a class="paper-link" href="#citation">Paper ↗</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">Research paper companion</p>
+        <h1>Between what we <em>hear</em><br>and what we <em>say.</em></h1>
+        <p class="lede">SpeechAudioLM studies direct, bidirectional generation between environmental audio and contextually plausible speech—without requiring text as the model interface.</p>
+        <div class="actions"><a class="button primary" href="#examples">Listen to examples</a><a class="button" href="#results">Explore results</a></div>
+      </div>
+      <div class="hero-visual" aria-label="Bidirectional mapping between audio and speech">
+        <div class="orb orb-a"><span>environment</span><b>Audio</b><i aria-hidden="true"></i></div>
+        <div class="bridge"><span>direct generation</span><svg viewBox="0 0 220 52" aria-hidden="true"><path d="M5 16 C65 1 155 1 215 16M215 36 C155 51 65 51 5 36"/><path d="m207 10 8 6-9 4M13 32l-8 4 8 6"/></svg></div>
+        <div class="orb orb-s"><span>human</span><b>Speech</b><i aria-hidden="true"></i></div>
+      </div>
+      <div class="hero-meta"><span>Audio → Speech</span><span>Speech → Audio</span><span>TTAS benchmark</span></div>
+    </section>
+
+    <section class="section" id="contributions">
+      <div class="section-heading"><p class="eyebrow">Three contributions</p><h2>A dataset, a judge,<br>and a bidirectional model.</h2></div>
+      <div class="contribution-grid">
+        <article><span class="number">01</span><h3>Paired dataset</h3><p>Natural environmental audio paired with speech that could plausibly occur in the same situation, with independently cleaned splits for each direction.</p><dl><div><dt>A2S test</dt><dd>2,197 pairs</dd></div><div><dt>S2A test</dt><dd>1,878 pairs</dd></div></dl></article>
+        <article><span class="number">02</span><h3>G-Eval Audio</h3><p>A listening-capable evaluator that scores cross-modal plausibility, perceptual quality, detail, delivery, and target-modality success—and explains each judgment.</p><button class="text-button" data-open-method>Read the evaluation criteria →</button></article>
+        <article><span class="number">03</span><h3>Direct generation</h3><p>End-to-end systems for both directions, compared with modular text-mediated cascades on the same complete test sets.</p><div class="mini-flow"><span>audio</span><b>↔</b><span>speech</span></div></article>
+      </div>
+    </section>
+
+    <section class="section results" id="results">
+      <div class="section-heading split"><div><p class="eyebrow">Full test-set evaluation</p><h2>The complete picture.</h2></div><p>Every number below is computed over the complete direction-specific test set—not the 50 examples shown later. Hover or focus a metric name for its scope.</p></div>
+      <div class="segmented" role="tablist" aria-label="Result direction"><button role="tab" aria-selected="true" data-result-direction="s2a">Speech → Audio</button><button role="tab" aria-selected="false" data-result-direction="a2s">Audio → Speech</button></div>
+      <div class="table-wrap"><table><thead id="metric-head"></thead><tbody id="metric-body"></tbody></table></div>
+      <p class="table-note" id="metric-note"></p>
+    </section>
+
+    <section class="section examples" id="examples">
+      <div class="section-heading split"><div><p class="eyebrow">Qualitative explorer</p><h2>Listen first.<br>Then look deeper.</h2></div><p>A curated 50-pair subset is shown for listening. Open any card to inspect intermediate text, per-example G-Eval criteria, feedback, and evaluator inputs.</p></div>
+      <div class="explorer-controls">
+        <div class="segmented" role="tablist" aria-label="Example direction"><button role="tab" aria-selected="true" data-example-direction="a2s">Audio → Speech</button><button role="tab" aria-selected="false" data-example-direction="s2a">Speech → Audio</button></div>
+        <label class="search"><span class="sr-only">Search examples</span><input id="search" type="search" placeholder="Search scene, transcript, or ID"><kbd>/</kbd></label>
+        <select id="scene-filter" aria-label="Filter by scene"><option value="">All scenes</option></select>
+      </div>
+      <div class="example-status"><span id="example-count"></span><button id="pause-all" class="text-button">Pause all audio</button></div>
+      <div id="example-list" class="example-list"></div>
+      <button id="load-more" class="button load-more" hidden>Show more examples</button>
+      <noscript><p class="notice">JavaScript is required for the interactive examples and result switcher.</p></noscript>
+    </section>
+
+    <section class="section method" id="method">
+      <div><p class="eyebrow">Transparent by design</p><h2>From a headline score<br>to the raw judgment.</h2></div>
+      <ol><li><b>01</b><span><strong>Aggregate</strong>Compare systems across the whole test set.</span></li><li><b>02</b><span><strong>Example</strong>Inspect a generated pair and its individual score.</span></li><li><b>03</b><span><strong>Criterion</strong>Expand the judge’s criterion-level ratings and feedback.</span></li><li><b>04</b><span><strong>Prompt</strong>Reveal the exact evaluator context and prompt version.</span></li></ol>
+    </section>
+
+    <section class="section citation" id="citation"><div><p class="eyebrow">Paper & code</p><h2>SpeechAudioLM</h2><p>Paper title, author list, venue, abstract, repository URL, and BibTeX will be inserted for the camera-ready release.</p></div><button class="button" id="copy-citation" data-citation="@article{speechaudiolm2026, title={SpeechAudioLM}, year={2026}}">Copy BibTeX</button></section>
+  </main>
+  <footer><a class="wordmark" href="#top"><span class="mark">SA</span> SpeechAudioLM</a><p>Research artifacts · 2026</p></footer>
+  <dialog id="method-dialog"><button class="dialog-close" aria-label="Close">×</button><p class="eyebrow">G-Eval Audio</p><h2>What the judge measures</h2><div id="criteria-description"></div><p class="dialog-note">The exact prompt version and criterion feedback remain available inside every scored example.</p></dialog>
+  <script src="site-data.js"></script><script src="app.js"></script>
+</body>
+</html>
