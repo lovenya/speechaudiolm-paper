@@ -11,16 +11,6 @@
   },
   {
     "sample_id": "O65SUasuskg",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "O65SUasuskg",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "O65SUasuskg",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -30,21 +20,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "O65SUasuskg",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "O65SUasuskg",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "O65SUasuskg",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "VuJvFtlAIeA",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -56,16 +31,6 @@
   },
   {
     "sample_id": "VuJvFtlAIeA",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "VuJvFtlAIeA",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "VuJvFtlAIeA",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -73,21 +38,6 @@
     "sample_id": "VuJvFtlAIeA",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "VuJvFtlAIeA",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "VuJvFtlAIeA",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "VuJvFtlAIeA",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "BH3eTHNEGM8",
@@ -101,16 +51,6 @@
   },
   {
     "sample_id": "BH3eTHNEGM8",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "BH3eTHNEGM8",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "BH3eTHNEGM8",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -120,21 +60,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "BH3eTHNEGM8",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "BH3eTHNEGM8",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "BH3eTHNEGM8",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "2MKK3rs_cOA",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -146,16 +71,6 @@
   },
   {
     "sample_id": "2MKK3rs_cOA",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "2MKK3rs_cOA",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "2MKK3rs_cOA",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -163,21 +78,6 @@
     "sample_id": "2MKK3rs_cOA",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "2MKK3rs_cOA",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "2MKK3rs_cOA",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "2MKK3rs_cOA",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "po4_PrE9Ij4",
@@ -191,16 +91,6 @@
   },
   {
     "sample_id": "po4_PrE9Ij4",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "po4_PrE9Ij4",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "po4_PrE9Ij4",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -210,21 +100,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "po4_PrE9Ij4",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "po4_PrE9Ij4",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "po4_PrE9Ij4",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "cr01mzKDgBY",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -236,16 +111,6 @@
   },
   {
     "sample_id": "cr01mzKDgBY",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "cr01mzKDgBY",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "cr01mzKDgBY",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -253,21 +118,6 @@
     "sample_id": "cr01mzKDgBY",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "cr01mzKDgBY",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "cr01mzKDgBY",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "cr01mzKDgBY",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "H-vKvvhul2s",
@@ -281,16 +131,6 @@
   },
   {
     "sample_id": "H-vKvvhul2s",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "H-vKvvhul2s",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "H-vKvvhul2s",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -300,21 +140,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "H-vKvvhul2s",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "H-vKvvhul2s",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "H-vKvvhul2s",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "2AQ4CPltrT8",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -326,16 +151,6 @@
   },
   {
     "sample_id": "2AQ4CPltrT8",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "2AQ4CPltrT8",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "2AQ4CPltrT8",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -343,21 +158,6 @@
     "sample_id": "2AQ4CPltrT8",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "2AQ4CPltrT8",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "2AQ4CPltrT8",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "2AQ4CPltrT8",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "2X5ZwDVqK2s",
@@ -371,16 +171,6 @@
   },
   {
     "sample_id": "2X5ZwDVqK2s",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "2X5ZwDVqK2s",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "2X5ZwDVqK2s",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -390,21 +180,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "2X5ZwDVqK2s",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "2X5ZwDVqK2s",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "2X5ZwDVqK2s",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "50Pb8Q7RFnw",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -416,16 +191,6 @@
   },
   {
     "sample_id": "50Pb8Q7RFnw",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "50Pb8Q7RFnw",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "50Pb8Q7RFnw",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -433,21 +198,6 @@
     "sample_id": "50Pb8Q7RFnw",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "50Pb8Q7RFnw",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "50Pb8Q7RFnw",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "50Pb8Q7RFnw",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "Ah4A2GmHay8",
@@ -461,16 +211,6 @@
   },
   {
     "sample_id": "Ah4A2GmHay8",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "Ah4A2GmHay8",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "Ah4A2GmHay8",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -480,21 +220,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "Ah4A2GmHay8",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "Ah4A2GmHay8",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "Ah4A2GmHay8",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "0CPR0THxzhk",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -506,16 +231,6 @@
   },
   {
     "sample_id": "0CPR0THxzhk",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "0CPR0THxzhk",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "0CPR0THxzhk",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -523,21 +238,6 @@
     "sample_id": "0CPR0THxzhk",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "0CPR0THxzhk",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "0CPR0THxzhk",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "0CPR0THxzhk",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "0C-5reSgR2w",
@@ -551,16 +251,6 @@
   },
   {
     "sample_id": "0C-5reSgR2w",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "0C-5reSgR2w",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "0C-5reSgR2w",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -570,21 +260,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "0C-5reSgR2w",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "0C-5reSgR2w",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "0C-5reSgR2w",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "4BwQL9lW7A4",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -596,16 +271,6 @@
   },
   {
     "sample_id": "4BwQL9lW7A4",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "4BwQL9lW7A4",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "4BwQL9lW7A4",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -613,21 +278,6 @@
     "sample_id": "4BwQL9lW7A4",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "4BwQL9lW7A4",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "4BwQL9lW7A4",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "4BwQL9lW7A4",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "35r9Zwy0XX0",
@@ -641,16 +291,6 @@
   },
   {
     "sample_id": "35r9Zwy0XX0",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "35r9Zwy0XX0",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "35r9Zwy0XX0",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -660,21 +300,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "35r9Zwy0XX0",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "35r9Zwy0XX0",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "35r9Zwy0XX0",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "6KnNjIRbPXA",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -686,16 +311,6 @@
   },
   {
     "sample_id": "6KnNjIRbPXA",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "6KnNjIRbPXA",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "6KnNjIRbPXA",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -703,21 +318,6 @@
     "sample_id": "6KnNjIRbPXA",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "6KnNjIRbPXA",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "6KnNjIRbPXA",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "6KnNjIRbPXA",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "4GYEVk6ngdk",
@@ -731,16 +331,6 @@
   },
   {
     "sample_id": "4GYEVk6ngdk",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "4GYEVk6ngdk",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "4GYEVk6ngdk",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -750,21 +340,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "4GYEVk6ngdk",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "4GYEVk6ngdk",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "4GYEVk6ngdk",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "jFOTuQfq8ZY",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -776,16 +351,6 @@
   },
   {
     "sample_id": "jFOTuQfq8ZY",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "jFOTuQfq8ZY",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "jFOTuQfq8ZY",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -793,21 +358,6 @@
     "sample_id": "jFOTuQfq8ZY",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "jFOTuQfq8ZY",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "jFOTuQfq8ZY",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "jFOTuQfq8ZY",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "074nzzlXf_g",
@@ -821,16 +371,6 @@
   },
   {
     "sample_id": "074nzzlXf_g",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "074nzzlXf_g",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "074nzzlXf_g",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -840,21 +380,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "074nzzlXf_g",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "074nzzlXf_g",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "074nzzlXf_g",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "Ulc_0EQSvwY",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -866,16 +391,6 @@
   },
   {
     "sample_id": "Ulc_0EQSvwY",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "Ulc_0EQSvwY",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "Ulc_0EQSvwY",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -883,21 +398,6 @@
     "sample_id": "Ulc_0EQSvwY",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "Ulc_0EQSvwY",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "Ulc_0EQSvwY",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "Ulc_0EQSvwY",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "audddexOQXE",
@@ -911,16 +411,6 @@
   },
   {
     "sample_id": "audddexOQXE",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "audddexOQXE",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "audddexOQXE",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -930,21 +420,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "audddexOQXE",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "audddexOQXE",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "audddexOQXE",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "bSkSgpKrDWY",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -956,16 +431,6 @@
   },
   {
     "sample_id": "bSkSgpKrDWY",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "bSkSgpKrDWY",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "bSkSgpKrDWY",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -973,21 +438,6 @@
     "sample_id": "bSkSgpKrDWY",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "bSkSgpKrDWY",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "bSkSgpKrDWY",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "bSkSgpKrDWY",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "HFJOa3zkozI",
@@ -1001,16 +451,6 @@
   },
   {
     "sample_id": "HFJOa3zkozI",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "HFJOa3zkozI",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "HFJOa3zkozI",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -1020,21 +460,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "HFJOa3zkozI",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "HFJOa3zkozI",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "HFJOa3zkozI",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "3YyDjkOkZ5I",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -1046,16 +471,6 @@
   },
   {
     "sample_id": "3YyDjkOkZ5I",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "3YyDjkOkZ5I",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "3YyDjkOkZ5I",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -1063,21 +478,6 @@
     "sample_id": "3YyDjkOkZ5I",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "3YyDjkOkZ5I",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "3YyDjkOkZ5I",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "3YyDjkOkZ5I",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "9AZZncb_yek",
@@ -1091,16 +491,6 @@
   },
   {
     "sample_id": "9AZZncb_yek",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "9AZZncb_yek",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "9AZZncb_yek",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -1110,21 +500,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "9AZZncb_yek",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "9AZZncb_yek",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "9AZZncb_yek",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "Nx7jrBIvxw4",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -1136,16 +511,6 @@
   },
   {
     "sample_id": "Nx7jrBIvxw4",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "Nx7jrBIvxw4",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "Nx7jrBIvxw4",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -1153,21 +518,6 @@
     "sample_id": "Nx7jrBIvxw4",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "Nx7jrBIvxw4",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "Nx7jrBIvxw4",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "Nx7jrBIvxw4",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "RC6pmT_rXL8",
@@ -1181,16 +531,6 @@
   },
   {
     "sample_id": "RC6pmT_rXL8",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "RC6pmT_rXL8",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "RC6pmT_rXL8",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -1200,21 +540,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "RC6pmT_rXL8",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "RC6pmT_rXL8",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "RC6pmT_rXL8",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "89z_iP2SmOI",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -1226,16 +551,6 @@
   },
   {
     "sample_id": "89z_iP2SmOI",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "89z_iP2SmOI",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "89z_iP2SmOI",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -1243,21 +558,6 @@
     "sample_id": "89z_iP2SmOI",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "89z_iP2SmOI",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "89z_iP2SmOI",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "89z_iP2SmOI",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "UMNhgnr2Xwo",
@@ -1271,16 +571,6 @@
   },
   {
     "sample_id": "UMNhgnr2Xwo",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "UMNhgnr2Xwo",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "UMNhgnr2Xwo",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -1290,21 +580,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "UMNhgnr2Xwo",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "UMNhgnr2Xwo",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "UMNhgnr2Xwo",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "aSheN1oz4Io",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -1316,16 +591,6 @@
   },
   {
     "sample_id": "aSheN1oz4Io",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "aSheN1oz4Io",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "aSheN1oz4Io",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -1333,21 +598,6 @@
     "sample_id": "aSheN1oz4Io",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "aSheN1oz4Io",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "aSheN1oz4Io",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "aSheN1oz4Io",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "zc4xSrpXEJg",
@@ -1361,16 +611,6 @@
   },
   {
     "sample_id": "zc4xSrpXEJg",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "zc4xSrpXEJg",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "zc4xSrpXEJg",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -1380,21 +620,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "zc4xSrpXEJg",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "zc4xSrpXEJg",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "zc4xSrpXEJg",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "tcXMUE7Yw0Y",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -1406,16 +631,6 @@
   },
   {
     "sample_id": "tcXMUE7Yw0Y",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "tcXMUE7Yw0Y",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "tcXMUE7Yw0Y",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -1423,21 +638,6 @@
     "sample_id": "tcXMUE7Yw0Y",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "tcXMUE7Yw0Y",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "tcXMUE7Yw0Y",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "tcXMUE7Yw0Y",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "1lMN9N4DBOc",
@@ -1451,16 +651,6 @@
   },
   {
     "sample_id": "1lMN9N4DBOc",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "1lMN9N4DBOc",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "1lMN9N4DBOc",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -1470,21 +660,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "1lMN9N4DBOc",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "1lMN9N4DBOc",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "1lMN9N4DBOc",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "2WGAe58oX4o",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -1496,16 +671,6 @@
   },
   {
     "sample_id": "2WGAe58oX4o",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "2WGAe58oX4o",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "2WGAe58oX4o",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -1513,21 +678,6 @@
     "sample_id": "2WGAe58oX4o",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "2WGAe58oX4o",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "2WGAe58oX4o",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "2WGAe58oX4o",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "KXu1oZzhwmI",
@@ -1541,16 +691,6 @@
   },
   {
     "sample_id": "KXu1oZzhwmI",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "KXu1oZzhwmI",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "KXu1oZzhwmI",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -1560,21 +700,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "KXu1oZzhwmI",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "KXu1oZzhwmI",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "KXu1oZzhwmI",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "74-okfsYSKU",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -1586,16 +711,6 @@
   },
   {
     "sample_id": "74-okfsYSKU",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "74-okfsYSKU",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "74-okfsYSKU",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -1603,21 +718,6 @@
     "sample_id": "74-okfsYSKU",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "74-okfsYSKU",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "74-okfsYSKU",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "74-okfsYSKU",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "eVUHTfJXlNA",
@@ -1631,16 +731,6 @@
   },
   {
     "sample_id": "eVUHTfJXlNA",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "eVUHTfJXlNA",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "eVUHTfJXlNA",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -1650,21 +740,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "eVUHTfJXlNA",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "eVUHTfJXlNA",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "eVUHTfJXlNA",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "9gRG7ZAukX4",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -1676,16 +751,6 @@
   },
   {
     "sample_id": "9gRG7ZAukX4",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "9gRG7ZAukX4",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "9gRG7ZAukX4",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -1693,21 +758,6 @@
     "sample_id": "9gRG7ZAukX4",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "9gRG7ZAukX4",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "9gRG7ZAukX4",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "9gRG7ZAukX4",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "Jb6O8pQhdvc",
@@ -1721,16 +771,6 @@
   },
   {
     "sample_id": "Jb6O8pQhdvc",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "Jb6O8pQhdvc",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "Jb6O8pQhdvc",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -1740,21 +780,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "Jb6O8pQhdvc",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "Jb6O8pQhdvc",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "Jb6O8pQhdvc",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "Zr6dRBDOlv8",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -1766,16 +791,6 @@
   },
   {
     "sample_id": "Zr6dRBDOlv8",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "Zr6dRBDOlv8",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "Zr6dRBDOlv8",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -1783,21 +798,6 @@
     "sample_id": "Zr6dRBDOlv8",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "Zr6dRBDOlv8",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "Zr6dRBDOlv8",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "Zr6dRBDOlv8",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "RuRta8gBeds",
@@ -1811,16 +811,6 @@
   },
   {
     "sample_id": "RuRta8gBeds",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "RuRta8gBeds",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "RuRta8gBeds",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -1830,21 +820,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "RuRta8gBeds",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "RuRta8gBeds",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "RuRta8gBeds",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "1CDjXpp0iEo",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -1856,16 +831,6 @@
   },
   {
     "sample_id": "1CDjXpp0iEo",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "1CDjXpp0iEo",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "1CDjXpp0iEo",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -1873,21 +838,6 @@
     "sample_id": "1CDjXpp0iEo",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "1CDjXpp0iEo",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "1CDjXpp0iEo",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "1CDjXpp0iEo",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "IomFjGmd3FA",
@@ -1901,16 +851,6 @@
   },
   {
     "sample_id": "IomFjGmd3FA",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "IomFjGmd3FA",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "IomFjGmd3FA",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -1920,21 +860,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "IomFjGmd3FA",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "IomFjGmd3FA",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "IomFjGmd3FA",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "1knxbrHS1xI",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -1946,16 +871,6 @@
   },
   {
     "sample_id": "1knxbrHS1xI",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "1knxbrHS1xI",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "1knxbrHS1xI",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -1963,21 +878,6 @@
     "sample_id": "1knxbrHS1xI",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "1knxbrHS1xI",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "1knxbrHS1xI",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "1knxbrHS1xI",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "7Dh27IwpmnQ",
@@ -1991,16 +891,6 @@
   },
   {
     "sample_id": "7Dh27IwpmnQ",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "7Dh27IwpmnQ",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "7Dh27IwpmnQ",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -2010,21 +900,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "7Dh27IwpmnQ",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "7Dh27IwpmnQ",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "7Dh27IwpmnQ",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "WgVp4p_LwLY",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -2036,16 +911,6 @@
   },
   {
     "sample_id": "WgVp4p_LwLY",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "WgVp4p_LwLY",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "WgVp4p_LwLY",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -2053,21 +918,6 @@
     "sample_id": "WgVp4p_LwLY",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "WgVp4p_LwLY",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "WgVp4p_LwLY",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "WgVp4p_LwLY",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "LQ7mFn5CvmI",
@@ -2081,16 +931,6 @@
   },
   {
     "sample_id": "LQ7mFn5CvmI",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "LQ7mFn5CvmI",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "LQ7mFn5CvmI",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -2100,21 +940,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "LQ7mFn5CvmI",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "LQ7mFn5CvmI",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "LQ7mFn5CvmI",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "ZU23IexLPSk",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -2126,16 +951,6 @@
   },
   {
     "sample_id": "ZU23IexLPSk",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "ZU23IexLPSk",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "ZU23IexLPSk",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -2143,21 +958,6 @@
     "sample_id": "ZU23IexLPSk",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "ZU23IexLPSk",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "ZU23IexLPSk",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "ZU23IexLPSk",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "aiVZPxwhWAw",
@@ -2171,16 +971,6 @@
   },
   {
     "sample_id": "aiVZPxwhWAw",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "aiVZPxwhWAw",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "aiVZPxwhWAw",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -2190,21 +980,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "aiVZPxwhWAw",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "aiVZPxwhWAw",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "aiVZPxwhWAw",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "8jdN1UPBpRk",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -2216,16 +991,6 @@
   },
   {
     "sample_id": "8jdN1UPBpRk",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "8jdN1UPBpRk",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "8jdN1UPBpRk",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -2233,21 +998,6 @@
     "sample_id": "8jdN1UPBpRk",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "8jdN1UPBpRk",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "8jdN1UPBpRk",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "8jdN1UPBpRk",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "23MER4exl90",
@@ -2261,16 +1011,6 @@
   },
   {
     "sample_id": "23MER4exl90",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "23MER4exl90",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "23MER4exl90",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -2280,21 +1020,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "23MER4exl90",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "23MER4exl90",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "23MER4exl90",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "Wf2-FDI22Xg",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -2306,16 +1031,6 @@
   },
   {
     "sample_id": "Wf2-FDI22Xg",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "Wf2-FDI22Xg",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "Wf2-FDI22Xg",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -2323,21 +1038,6 @@
     "sample_id": "Wf2-FDI22Xg",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "Wf2-FDI22Xg",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "Wf2-FDI22Xg",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "Wf2-FDI22Xg",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "7AW5ICp3WxM",
@@ -2351,16 +1051,6 @@
   },
   {
     "sample_id": "7AW5ICp3WxM",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "7AW5ICp3WxM",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "7AW5ICp3WxM",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -2370,21 +1060,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "7AW5ICp3WxM",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "7AW5ICp3WxM",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "7AW5ICp3WxM",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "J7OwMTrrk6E",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -2396,16 +1071,6 @@
   },
   {
     "sample_id": "J7OwMTrrk6E",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "J7OwMTrrk6E",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "J7OwMTrrk6E",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -2413,21 +1078,6 @@
     "sample_id": "J7OwMTrrk6E",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "J7OwMTrrk6E",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "J7OwMTrrk6E",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "J7OwMTrrk6E",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "yGx08kFWCSE",
@@ -2441,16 +1091,6 @@
   },
   {
     "sample_id": "yGx08kFWCSE",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "yGx08kFWCSE",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "yGx08kFWCSE",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -2460,21 +1100,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "yGx08kFWCSE",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "yGx08kFWCSE",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "yGx08kFWCSE",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "0P0dPO91GP4",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -2486,16 +1111,6 @@
   },
   {
     "sample_id": "0P0dPO91GP4",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "0P0dPO91GP4",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "0P0dPO91GP4",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -2503,21 +1118,6 @@
     "sample_id": "0P0dPO91GP4",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "0P0dPO91GP4",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "0P0dPO91GP4",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "0P0dPO91GP4",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "r8J1OWPoIko",
@@ -2531,16 +1131,6 @@
   },
   {
     "sample_id": "r8J1OWPoIko",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "r8J1OWPoIko",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "r8J1OWPoIko",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -2550,21 +1140,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "r8J1OWPoIko",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "r8J1OWPoIko",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "r8J1OWPoIko",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "1EZrXL7Jbu4",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -2576,16 +1151,6 @@
   },
   {
     "sample_id": "1EZrXL7Jbu4",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "1EZrXL7Jbu4",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "1EZrXL7Jbu4",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -2593,21 +1158,6 @@
     "sample_id": "1EZrXL7Jbu4",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "1EZrXL7Jbu4",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "1EZrXL7Jbu4",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "1EZrXL7Jbu4",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "3i56iP7w0ZY",
@@ -2621,16 +1171,6 @@
   },
   {
     "sample_id": "3i56iP7w0ZY",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "3i56iP7w0ZY",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "3i56iP7w0ZY",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -2640,21 +1180,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "3i56iP7w0ZY",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "3i56iP7w0ZY",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "3i56iP7w0ZY",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "7tVFGG5Z2dA",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -2666,16 +1191,6 @@
   },
   {
     "sample_id": "7tVFGG5Z2dA",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "7tVFGG5Z2dA",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "7tVFGG5Z2dA",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -2683,21 +1198,6 @@
     "sample_id": "7tVFGG5Z2dA",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "7tVFGG5Z2dA",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "7tVFGG5Z2dA",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "7tVFGG5Z2dA",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "aTBPPjhDFqo",
@@ -2711,16 +1211,6 @@
   },
   {
     "sample_id": "aTBPPjhDFqo",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "aTBPPjhDFqo",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "aTBPPjhDFqo",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -2730,21 +1220,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "aTBPPjhDFqo",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "aTBPPjhDFqo",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "aTBPPjhDFqo",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "-Ce1gLMg0Kk",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -2756,16 +1231,6 @@
   },
   {
     "sample_id": "-Ce1gLMg0Kk",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "-Ce1gLMg0Kk",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "-Ce1gLMg0Kk",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -2773,21 +1238,6 @@
     "sample_id": "-Ce1gLMg0Kk",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "-Ce1gLMg0Kk",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "-Ce1gLMg0Kk",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "-Ce1gLMg0Kk",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "9KNLNTmNrJM",
@@ -2801,16 +1251,6 @@
   },
   {
     "sample_id": "9KNLNTmNrJM",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "9KNLNTmNrJM",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "9KNLNTmNrJM",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -2820,21 +1260,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "9KNLNTmNrJM",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "9KNLNTmNrJM",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "9KNLNTmNrJM",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "0z5TRiOKlX4",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -2846,16 +1271,6 @@
   },
   {
     "sample_id": "0z5TRiOKlX4",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "0z5TRiOKlX4",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "0z5TRiOKlX4",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -2863,21 +1278,6 @@
     "sample_id": "0z5TRiOKlX4",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "0z5TRiOKlX4",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "0z5TRiOKlX4",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "0z5TRiOKlX4",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "fgedDjfMhqA",
@@ -2891,16 +1291,6 @@
   },
   {
     "sample_id": "fgedDjfMhqA",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "fgedDjfMhqA",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "fgedDjfMhqA",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -2910,21 +1300,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "fgedDjfMhqA",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "fgedDjfMhqA",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "fgedDjfMhqA",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "31Nd-PV-738",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -2936,16 +1311,6 @@
   },
   {
     "sample_id": "31Nd-PV-738",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "31Nd-PV-738",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "31Nd-PV-738",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -2953,21 +1318,6 @@
     "sample_id": "31Nd-PV-738",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "31Nd-PV-738",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "31Nd-PV-738",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "31Nd-PV-738",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "20Ux-u-gL2c",
@@ -2981,16 +1331,6 @@
   },
   {
     "sample_id": "20Ux-u-gL2c",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "20Ux-u-gL2c",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "20Ux-u-gL2c",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -3000,21 +1340,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "20Ux-u-gL2c",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "20Ux-u-gL2c",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "20Ux-u-gL2c",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "59aVtYM8k-4",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -3026,16 +1351,6 @@
   },
   {
     "sample_id": "59aVtYM8k-4",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "59aVtYM8k-4",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "59aVtYM8k-4",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -3043,21 +1358,6 @@
     "sample_id": "59aVtYM8k-4",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "59aVtYM8k-4",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "59aVtYM8k-4",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "59aVtYM8k-4",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "TTtjmtw_4dQ",
@@ -3071,16 +1371,6 @@
   },
   {
     "sample_id": "TTtjmtw_4dQ",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "TTtjmtw_4dQ",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "TTtjmtw_4dQ",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -3090,21 +1380,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "TTtjmtw_4dQ",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "TTtjmtw_4dQ",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "TTtjmtw_4dQ",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "7NWM09eGXBw",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -3116,16 +1391,6 @@
   },
   {
     "sample_id": "7NWM09eGXBw",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "7NWM09eGXBw",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "7NWM09eGXBw",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -3133,21 +1398,6 @@
     "sample_id": "7NWM09eGXBw",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "7NWM09eGXBw",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "7NWM09eGXBw",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "7NWM09eGXBw",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "MZEM-5KUbVc",
@@ -3161,16 +1411,6 @@
   },
   {
     "sample_id": "MZEM-5KUbVc",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "MZEM-5KUbVc",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "MZEM-5KUbVc",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -3180,21 +1420,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "MZEM-5KUbVc",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "MZEM-5KUbVc",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "MZEM-5KUbVc",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "EyiYrffEcac",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -3206,16 +1431,6 @@
   },
   {
     "sample_id": "EyiYrffEcac",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "EyiYrffEcac",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "EyiYrffEcac",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -3223,21 +1438,6 @@
     "sample_id": "EyiYrffEcac",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "EyiYrffEcac",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "EyiYrffEcac",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "EyiYrffEcac",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "5sua5l4L19Y",
@@ -3251,16 +1451,6 @@
   },
   {
     "sample_id": "5sua5l4L19Y",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "5sua5l4L19Y",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "5sua5l4L19Y",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -3270,21 +1460,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "5sua5l4L19Y",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "5sua5l4L19Y",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "5sua5l4L19Y",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "hdPITacP_pg",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -3296,16 +1471,6 @@
   },
   {
     "sample_id": "hdPITacP_pg",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "hdPITacP_pg",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "hdPITacP_pg",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -3313,21 +1478,6 @@
     "sample_id": "hdPITacP_pg",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "hdPITacP_pg",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "hdPITacP_pg",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "hdPITacP_pg",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "Fdb3UCmDXI4",
@@ -3341,16 +1491,6 @@
   },
   {
     "sample_id": "Fdb3UCmDXI4",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "Fdb3UCmDXI4",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "Fdb3UCmDXI4",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -3360,21 +1500,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "Fdb3UCmDXI4",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "Fdb3UCmDXI4",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "Fdb3UCmDXI4",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "dtKtO5rBadE",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -3386,16 +1511,6 @@
   },
   {
     "sample_id": "dtKtO5rBadE",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "dtKtO5rBadE",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "dtKtO5rBadE",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -3403,21 +1518,6 @@
     "sample_id": "dtKtO5rBadE",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "dtKtO5rBadE",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "dtKtO5rBadE",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "dtKtO5rBadE",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "O8B5PuPLuwE",
@@ -3431,16 +1531,6 @@
   },
   {
     "sample_id": "O8B5PuPLuwE",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "O8B5PuPLuwE",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "O8B5PuPLuwE",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -3450,21 +1540,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "O8B5PuPLuwE",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "O8B5PuPLuwE",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "O8B5PuPLuwE",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "0Cy99mOL9Ao",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -3476,16 +1551,6 @@
   },
   {
     "sample_id": "0Cy99mOL9Ao",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "0Cy99mOL9Ao",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "0Cy99mOL9Ao",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -3493,21 +1558,6 @@
     "sample_id": "0Cy99mOL9Ao",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "0Cy99mOL9Ao",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "0Cy99mOL9Ao",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "0Cy99mOL9Ao",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "NH8idzV1xA8",
@@ -3521,16 +1571,6 @@
   },
   {
     "sample_id": "NH8idzV1xA8",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "NH8idzV1xA8",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "NH8idzV1xA8",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -3540,21 +1580,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "NH8idzV1xA8",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "NH8idzV1xA8",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "NH8idzV1xA8",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "6Md7FDWMm3o",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -3566,16 +1591,6 @@
   },
   {
     "sample_id": "6Md7FDWMm3o",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "6Md7FDWMm3o",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "6Md7FDWMm3o",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -3583,21 +1598,6 @@
     "sample_id": "6Md7FDWMm3o",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "6Md7FDWMm3o",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "6Md7FDWMm3o",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "6Md7FDWMm3o",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "DyrIsi5DI-U",
@@ -3611,16 +1611,6 @@
   },
   {
     "sample_id": "DyrIsi5DI-U",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "DyrIsi5DI-U",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "DyrIsi5DI-U",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -3630,21 +1620,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "DyrIsi5DI-U",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "DyrIsi5DI-U",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "DyrIsi5DI-U",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "4eRNFP10zjk",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -3656,16 +1631,6 @@
   },
   {
     "sample_id": "4eRNFP10zjk",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "4eRNFP10zjk",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "4eRNFP10zjk",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -3673,21 +1638,6 @@
     "sample_id": "4eRNFP10zjk",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "4eRNFP10zjk",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "4eRNFP10zjk",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "4eRNFP10zjk",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "nsI8d02u_6s",
@@ -3701,16 +1651,6 @@
   },
   {
     "sample_id": "nsI8d02u_6s",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "nsI8d02u_6s",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "nsI8d02u_6s",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -3720,21 +1660,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "nsI8d02u_6s",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "nsI8d02u_6s",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "nsI8d02u_6s",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "cfXE_kr4Hi4",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -3746,16 +1671,6 @@
   },
   {
     "sample_id": "cfXE_kr4Hi4",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "cfXE_kr4Hi4",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "cfXE_kr4Hi4",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -3763,21 +1678,6 @@
     "sample_id": "cfXE_kr4Hi4",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "cfXE_kr4Hi4",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "cfXE_kr4Hi4",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "cfXE_kr4Hi4",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "wSYhF1yOEaI",
@@ -3791,16 +1691,6 @@
   },
   {
     "sample_id": "wSYhF1yOEaI",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "wSYhF1yOEaI",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "wSYhF1yOEaI",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -3810,21 +1700,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "wSYhF1yOEaI",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "wSYhF1yOEaI",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "wSYhF1yOEaI",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "4AaY8e2SDgE",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -3836,16 +1711,6 @@
   },
   {
     "sample_id": "4AaY8e2SDgE",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "4AaY8e2SDgE",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "4AaY8e2SDgE",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -3853,21 +1718,6 @@
     "sample_id": "4AaY8e2SDgE",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "4AaY8e2SDgE",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "4AaY8e2SDgE",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "4AaY8e2SDgE",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "2ubvt7wMIug",
@@ -3881,16 +1731,6 @@
   },
   {
     "sample_id": "2ubvt7wMIug",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "2ubvt7wMIug",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "2ubvt7wMIug",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -3900,21 +1740,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "2ubvt7wMIug",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "2ubvt7wMIug",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "2ubvt7wMIug",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "0Nfu-FQO9a8",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -3926,16 +1751,6 @@
   },
   {
     "sample_id": "0Nfu-FQO9a8",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "0Nfu-FQO9a8",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "0Nfu-FQO9a8",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -3943,21 +1758,6 @@
     "sample_id": "0Nfu-FQO9a8",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "0Nfu-FQO9a8",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "0Nfu-FQO9a8",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "0Nfu-FQO9a8",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "SwT4dEXX96g",
@@ -3971,16 +1771,6 @@
   },
   {
     "sample_id": "SwT4dEXX96g",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "SwT4dEXX96g",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "SwT4dEXX96g",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -3990,21 +1780,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "SwT4dEXX96g",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "SwT4dEXX96g",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "SwT4dEXX96g",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "1NMY6PFDd2U",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -4016,16 +1791,6 @@
   },
   {
     "sample_id": "1NMY6PFDd2U",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "1NMY6PFDd2U",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "1NMY6PFDd2U",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -4033,21 +1798,6 @@
     "sample_id": "1NMY6PFDd2U",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "1NMY6PFDd2U",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "1NMY6PFDd2U",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "1NMY6PFDd2U",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "wnxBdfkSWsk",
@@ -4061,16 +1811,6 @@
   },
   {
     "sample_id": "wnxBdfkSWsk",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "wnxBdfkSWsk",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "wnxBdfkSWsk",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -4080,21 +1820,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "wnxBdfkSWsk",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "wnxBdfkSWsk",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "wnxBdfkSWsk",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "uTOrHGJQfqQ",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -4106,16 +1831,6 @@
   },
   {
     "sample_id": "uTOrHGJQfqQ",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "uTOrHGJQfqQ",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "uTOrHGJQfqQ",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -4123,21 +1838,6 @@
     "sample_id": "uTOrHGJQfqQ",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "uTOrHGJQfqQ",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "uTOrHGJQfqQ",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "uTOrHGJQfqQ",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "6xdLGyrbtJM",
@@ -4151,16 +1851,6 @@
   },
   {
     "sample_id": "6xdLGyrbtJM",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "6xdLGyrbtJM",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "6xdLGyrbtJM",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -4170,21 +1860,6 @@
     "field": "cascadeStages.a2s.bridge"
   },
   {
-    "sample_id": "6xdLGyrbtJM",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "6xdLGyrbtJM",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "6xdLGyrbtJM",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
-  },
-  {
     "sample_id": "CFbSuZdATdM",
     "direction": "s2a",
     "field": "cascadeStages.s2a.perception"
@@ -4196,16 +1871,6 @@
   },
   {
     "sample_id": "CFbSuZdATdM",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "CFbSuZdATdM",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "CFbSuZdATdM",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -4213,21 +1878,6 @@
     "sample_id": "CFbSuZdATdM",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "CFbSuZdATdM",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "CFbSuZdATdM",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "CFbSuZdATdM",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "HIn9yehxHUA",
@@ -4241,16 +1891,6 @@
   },
   {
     "sample_id": "HIn9yehxHUA",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "HIn9yehxHUA",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "HIn9yehxHUA",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -4258,21 +1898,6 @@
     "sample_id": "HIn9yehxHUA",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "HIn9yehxHUA",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "HIn9yehxHUA",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "HIn9yehxHUA",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "6zNqYsqKQZY",
@@ -4286,16 +1911,6 @@
   },
   {
     "sample_id": "6zNqYsqKQZY",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "6zNqYsqKQZY",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "6zNqYsqKQZY",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -4303,21 +1918,6 @@
     "sample_id": "6zNqYsqKQZY",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "6zNqYsqKQZY",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "6zNqYsqKQZY",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "6zNqYsqKQZY",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "fSXROtIY4vM",
@@ -4331,16 +1931,6 @@
   },
   {
     "sample_id": "fSXROtIY4vM",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "fSXROtIY4vM",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "fSXROtIY4vM",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -4348,21 +1938,6 @@
     "sample_id": "fSXROtIY4vM",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "fSXROtIY4vM",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "fSXROtIY4vM",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "fSXROtIY4vM",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "XZUsJnzfmC0",
@@ -4376,16 +1951,6 @@
   },
   {
     "sample_id": "XZUsJnzfmC0",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "XZUsJnzfmC0",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "XZUsJnzfmC0",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -4393,21 +1958,6 @@
     "sample_id": "XZUsJnzfmC0",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "XZUsJnzfmC0",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "XZUsJnzfmC0",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "XZUsJnzfmC0",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "-RYQN6bHb-E",
@@ -4421,16 +1971,6 @@
   },
   {
     "sample_id": "-RYQN6bHb-E",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "-RYQN6bHb-E",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "-RYQN6bHb-E",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -4438,21 +1978,6 @@
     "sample_id": "-RYQN6bHb-E",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "-RYQN6bHb-E",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "-RYQN6bHb-E",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "-RYQN6bHb-E",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   },
   {
     "sample_id": "7W3cwaYDvJ0",
@@ -4466,16 +1991,6 @@
   },
   {
     "sample_id": "7W3cwaYDvJ0",
-    "direction": "s2a",
-    "field": "outputText.s2a.ours"
-  },
-  {
-    "sample_id": "7W3cwaYDvJ0",
-    "direction": "s2a",
-    "field": "outputText.s2a.cascade"
-  },
-  {
-    "sample_id": "7W3cwaYDvJ0",
     "direction": "a2s",
     "field": "cascadeStages.a2s.perception"
   },
@@ -4483,20 +1998,5 @@
     "sample_id": "7W3cwaYDvJ0",
     "direction": "a2s",
     "field": "cascadeStages.a2s.bridge"
-  },
-  {
-    "sample_id": "7W3cwaYDvJ0",
-    "direction": "a2s",
-    "field": "outputText.a2s.ours"
-  },
-  {
-    "sample_id": "7W3cwaYDvJ0",
-    "direction": "a2s",
-    "field": "outputText.a2s.flat"
-  },
-  {
-    "sample_id": "7W3cwaYDvJ0",
-    "direction": "a2s",
-    "field": "outputText.a2s.cascade"
   }
 ]

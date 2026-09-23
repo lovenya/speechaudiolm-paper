@@ -3,5 +3,5 @@
   "audio_files": 700,
   "selection": "first N rows of the fixed, curated seed-20260917 100-pair bundle",
   "geval_prompt_version": "geval_audio_plausibility_v6",
-  "missing_fields": 900
+  "missing_fields": 400
 }
