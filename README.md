@@ -1,18 +1,27 @@
 # Contextual Audio–Speech Co-Synthesis paper companion
 
-The repository root is the static GitHub Pages site. `index.html` is its entry
-point; the Dataset, G-Eval Audio, Model, Results, and Examples pages are plain
-HTML, CSS, and JavaScript. The site has no runtime package or API dependency.
+The repository root is the static GitHub Pages site at
+`https://lovenya.github.io/speechaudiolm-paper/`. `index.html` is the paper-title
+entry point; Dataset, G-Eval Audio, Model, Results, and Examples are linked from
+its navigation. The site has no runtime API, packages, or remote assets.
 
-The listening workspace contains 100 shared clean-v2 test IDs and 700 WAV files.
+The listening workspace contains 100 common clean-v2 test IDs and 700 original
+WAV files. Each example shows paired reference recordings and text, the saved
+dataset rationale, speaker metadata, and vertically arranged system outputs.
 Each of five direction/system combinations has a saved G-Eval Audio v6 judgment
-with five criterion scores, feedback, and the rendered evaluation prompt. The
-paper and evaluator results are still being revised, so the website labels its
-current scores as a v6 snapshot. A `missing-data.json` receipt identifies text
-intermediates and generated-output descriptions awaiting the authors' records.
+with five visible criterion scores. Open a criterion for written feedback and
+then its exact saved evaluation prompt.
 
-The old 50-example duplicate site was preserved separately as a legacy artifact
-before the 100-example release replaced the root. Git history retains the
-previous root page. The source exporter and release validator are maintained in
-the SALM-model training repository; generated audio and evaluation evidence are
-copied into this publication repository only for the paper supplement.
+The G-Eval page shows full-test criterion means for every system and both
+directions, a 120-pair matched/mismatched diagnostic for each direction, and
+highest-/lowest-scoring listening examples for every criterion. The current v6
+numbers are a consistent snapshot; the paper's revised prompts and final
+numbers will replace them together. Objective metrics are on the Results page.
+`missing-data.json` identifies cascade intermediates and generated-output
+transcripts/captions awaiting author-supplied records. The Model architecture
+page is intentionally reserved for later content.
+
+The old 50-example site was preserved as a legacy artifact before this release.
+The exporter, data checks and source templates live in the SALM-model repository;
+this publication repository contains only the built site and media required by
+GitHub Pages.
