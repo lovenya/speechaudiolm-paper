@@ -1,85 +1,113 @@
 (() => {
+  'use strict';
   const data = window.PAPER_DATA;
   if (!data) return;
-
-  const labels = {
-    geval_audio_plausibility: 'G-Eval Audio ↑', fad: 'FAD ↓', kad: 'KAD ↓',
-    inception_score: 'Inception ↑', kl_passt: 'KL PaSST ↓', target_caption_clap_score: 'CLAPScore ↑',
-    utmos: 'UTMOS ↑', dnsmos: 'DNSMOS ↑'
+  const $ = selector => document.querySelector(selector);
+  const $$ = selector => [...document.querySelectorAll(selector)];
+  const escape = value => String(value ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+  const score = value => Number.isFinite(value) ? value.toFixed(Math.abs(value) >= 10 ? 2 : 3) : '—';
+  const metrics = {
+    geval_audio_plausibility: ['G-Eval Audio', '↑', 'Listening-based cross-modal plausibility and quality, on a 1–5 scale.'],
+    utmos: ['UTMOS', '↑', 'Prediction of speech naturalness without a reference waveform. This is a model score, not a human listening rating.'],
+    dnsmos: ['DNSMOS', '↑', 'Prediction of speech perceptual quality without a reference waveform. This is a model score, not a human listening rating.'],
+    fad: ['FAD', '↓', 'Fréchet Audio Distance: distance between reference and generated audio feature distributions. Reported for the corpus.'],
+    kad: ['KAD', '↓', 'Kernel Audio Distance: kernel-based distance between reference and generated audio feature distributions. Reported for the corpus.'],
+    inception_score: ['Inception Score', '↑', 'PANNs classifier confidence and class diversity across the generated corpus.'],
+    kl_passt: ['KL PaSST', '↓', 'Divergence between reference and generated audio class distributions using PaSST. Reported at corpus level.'],
+    target_caption_clap_score: ['CLAPScore', '↑', 'Similarity between generated audio and its paired target caption in CLAP embedding space.']
   };
-  const descriptions = {
-    geval_audio_plausibility: 'Listening-capable judge; mean weighted score on a 1–5 scale.',
-    fad: 'Corpus-level Fréchet Audio Distance; lower is better.', kad: 'Corpus-level Kernel Audio Distance; lower is better.',
-    inception_score: 'Corpus-level PANNs Inception Score; higher is better.', kl_passt: 'Corpus-level PaSST KL divergence; lower is better.',
-    target_caption_clap_score: 'Mean audio–target-caption similarity; higher is better.', utmos: 'Mean predicted speech naturalness; higher is better.',
-    dnsmos: 'Mean non-intrusive speech quality; higher is better.'
+  const metricOrder = {a2s:['geval_audio_plausibility','utmos','dnsmos'],s2a:['geval_audio_plausibility','fad','kad','inception_score','kl_passt','target_caption_clap_score']};
+  const criterionNames = {
+    scenario_plausibility:'Scenario plausibility', controlled_detail:'Controlled detail',
+    perceptual_audio_quality:'Perceptual quality', target_modality_success:'Target modality',
+    expressive_delivery_fit:'Expressive delivery', contextual_acoustic_fit:'Contextual acoustic fit'
   };
-  const metricOrder = {s2a:['geval_audio_plausibility','fad','kad','inception_score','kl_passt','target_caption_clap_score'],a2s:['geval_audio_plausibility','utmos','dnsmos']};
-  let resultDirection = 's2a', exampleDirection = 'a2s', shown = 10;
+  const criteriaFor = direction => data.geval.criterionOrder?.[direction] || ['scenario_plausibility','controlled_detail','perceptual_audio_quality','target_modality_success',direction==='a2s'?'expressive_delivery_fit':'contextual_acoustic_fit'];
+  let tipIndex = 0;
+  function metricTip(key) {
+    const [name, arrow, definition] = metrics[key], id = `metric-tip-${++tipIndex}`;
+    return `<span class="metric-tip"><button type="button" aria-describedby="${id}">${escape(name)} <span aria-hidden="true">${arrow}</span></button><span class="tooltip" role="tooltip" id="${id}">${escape(definition)} ${arrow==='↑'?'Higher':'Lower'} is better.</span></span>`;
+  }
+  function coverage(system, metric, total) {
+    const n = system.counts?.[metric];
+    return n == null ? 'Coverage unavailable' : `n = ${n.toLocaleString()}${n===total?'':` / ${total.toLocaleString()}`}`;
+  }
+  function renderResults(direction) {
+    const block=data.benchmarks[direction];
+    return `<div class="table-scroll"><table class="results-table"><caption class="sr-only">${direction==='a2s'?'Audio to speech':'Speech to audio'} full-test results</caption><thead><tr><th scope="col">System</th>${metricOrder[direction].map(m=>`<th scope="col">${metricTip(m)}</th>`).join('')}</tr></thead><tbody>${block.systems.map(system=>`<tr><th scope="row">${escape(system.name)}<span class="cell-note">${escape(system.detail)}</span></th>${metricOrder[direction].map(m=>`<td><strong class="table-value">${score(system.scores[m])}</strong><span class="cell-note">${coverage(system,m,system.attempted?.[m]||block.testCount)}</span></td>`).join('')}</tr>`).join('')}</tbody></table></div><p class="table-note">${escape(block.note)} Each mean uses successfully scored rows; coverage can differ between systems.</p>`;
+  }
+  $$('[data-results]').forEach(el=>el.innerHTML=renderResults(el.dataset.results));
+  $$('[data-count]').forEach(el=>el.textContent=data.samples.length || '100');
+  if ($('#metric-glossary')) $('#metric-glossary').innerHTML=Object.entries(metrics).map(([key,[name,arrow,definition]])=>`<div><h3>${escape(name)} ${arrow}</h3><p>${escape(definition)}</p></div>`).join('');
+  if ($('#criteria-guide')) $('#criteria-guide').innerHTML=['a2s','s2a'].map(direction=>`<section><h3>${direction==='a2s'?'Audio → Speech':'Speech → Audio'}</h3><ol class="criteria-guide">${criteriaFor(direction).map(key=>`<li><strong>${criterionNames[key]}</strong><p>${escape(data.geval.criteria[key])}</p></li>`).join('')}</ol></section>`).join('');
+  if (!data.release) $('#main')?.insertAdjacentHTML('afterbegin','<p class="notice"><strong>Source template.</strong> Build the release to load real recordings and verified evaluation results.</p>');
+  document.addEventListener('keydown',event=>{if(event.key==='Escape' && document.activeElement?.closest('.metric-tip'))document.activeElement.blur();});
+  if (!$('#selected-example')) return;
 
-  function fmt(value) {
-    if (value == null) return '—';
-    return Math.abs(value) >= 10 ? value.toFixed(2) : value.toFixed(3);
-  }
-  function renderResults() {
-    const block = data.benchmarks[resultDirection], metrics = metricOrder[resultDirection];
-    document.querySelector('#metric-head').innerHTML = `<tr><th>System</th>${metrics.map(m=>`<th title="${descriptions[m]}">${labels[m]}<span class="metric-scope">${block.metrics[m]?.scope || ''}</span></th>`).join('')}</tr>`;
-    document.querySelector('#metric-body').innerHTML = block.systems.map(system => `<tr><th>${system.name}<span class="metric-scope">${system.detail}</span></th>${metrics.map(metric => {
-      const v=system.scores[metric], available=typeof v==='number';
-      const values=block.systems.map(s=>s.scores[metric]).filter(x=>typeof x==='number');
-      const higher=!['fad','kad','kl_passt'].includes(metric), best=available && v === (higher?Math.max(...values):Math.min(...values));
-      const n=system.counts?.[metric], attempted=system.attempted?.[metric];
-      const coverage=n ? `n=${n.toLocaleString()}${attempted&&attempted!==n?` of ${attempted.toLocaleString()}`:''}` : '';
-      return `<td class="metric-value ${best?'best':''}" title="${coverage}">${fmt(v)}${coverage?`<span class="metric-scope">${coverage}</span>`:''}</td>`;
-    }).join('')}</tr>`).join('');
-    document.querySelector('#metric-note').textContent = `${block.testCount.toLocaleString()} ${block.directionName} test pairs. ${block.note}`;
-  }
-  document.querySelectorAll('[data-result-direction]').forEach(button => button.addEventListener('click', () => {
-    resultDirection=button.dataset.resultDirection;
-    document.querySelectorAll('[data-result-direction]').forEach(b=>b.setAttribute('aria-selected',String(b===button))); renderResults();
-  }));
-
-  function track(label, src, cls='') {
-    return `<div class="track ${cls}"><label>${label}</label><audio controls preload="none" src="${src}"><a href="${src}">Open WAV</a></audio></div>`;
-  }
-  function scorePanel(system, judgment) {
-    if (!judgment) return `<div class="panel"><h4>${system}</h4><p>No per-example judgment is available.</p></div>`;
-    const criteria=Object.entries(judgment.criteria||{}).map(([key,c])=>`<div class="score-row"><span>${key.replaceAll('_',' ')}</span><b>${c.score}/5</b></div><details class="feedback"><summary>Judge feedback</summary><p>${c.feedback}</p></details>${c.prompt?`<details class="feedback"><summary>Exact v6 prompt for this criterion</summary><div class="raw">${c.prompt}</div></details>`:''}`).join('');
-    return `<div class="panel"><h4>${system} · G-Eval ${fmt(judgment.score)} / 5</h4>${criteria}<details class="feedback"><summary>Raw evaluator context</summary><div class="raw">${judgment.rawContext||'Prompt version: '+(data.geval.promptVersion||'not recorded')}</div></details></div>`;
-  }
-  function exampleCard(sample, index) {
-    const isA2S=exampleDirection==='a2s';
-    const input=isA2S?sample.files.reference_audio:sample.files.reference_speech;
-    const reference=isA2S?sample.files.reference_speech:sample.files.reference_audio;
-    const ours=isA2S?(sample.files.a2s_model_b||sample.files.a2s_model_a):sample.files.s2a_ours;
-    const cascade=isA2S?sample.files.a2s_cascaded:sample.files.s2a_cascaded;
-    const judgments=sample.judgments?.[exampleDirection]||{};
-    const intermediate=sample.cascade?.[exampleDirection]?.intermediate_text;
-    const prompt=sample.cascade?.[exampleDirection]?.prompt;
-    return `<article class="example" id="sample-${sample.sample_id}"><div class="example-main"><div class="example-index">${String(index+1).padStart(2,'0')}</div><div class="example-title"><h3>${sample.audio_caption}</h3><p>${sample.sample_id} · ${sample.scene_group.replaceAll('_',' ')}</p></div><div class="tracks">${track('Input',input)}${track('Ours',ours,'ours')}${track('Cascade',cascade,'cascade')}</div></div><details class="example-details"><summary>View transcript, scores & judge feedback</summary><div class="deep-grid"><div class="panel"><h4>Paired reference</h4><p>${sample.speech_text}</p>${track('Reference',reference)}<h4 style="margin-top:18px">Cascade intermediate text</h4><p>${intermediate||'Intermediate text was not preserved in the transferred presentation bundle.'}</p><details class="feedback"><summary>Generation prompt</summary><div class="raw">${prompt||'See the paper appendix / release artifact for the exact cascade template.'}</div></details></div>${scorePanel('Ours',judgments.ours)}${scorePanel('Cascade',judgments.cascade)}</div></details></article>`;
-  }
-  function filteredSamples() {
-    const q=document.querySelector('#search').value.trim().toLowerCase(), scene=document.querySelector('#scene-filter').value;
-    return data.samples.filter(s=>(!scene||s.scene_group===scene) && (!q||[s.sample_id,s.audio_caption,s.speech_text].join(' ').toLowerCase().includes(q)));
-  }
-  function renderExamples(reset=false) {
-    if(reset) shown=10;
-    const samples=filteredSamples(), visible=samples.slice(0,shown);
-    document.querySelector('#example-list').innerHTML=visible.map(exampleCard).join('');
-    document.querySelector('#example-count').textContent=`Showing ${visible.length} of ${samples.length} published examples`;
-    const more=document.querySelector('#load-more'); more.hidden=shown>=samples.length;
-    document.querySelectorAll('audio').forEach(a=>a.addEventListener('play',()=>document.querySelectorAll('audio').forEach(other=>{if(other!==a)other.pause()})));
-  }
+  const params=new URLSearchParams(location.search);
+  let direction=params.get('direction')==='s2a'?'s2a':'a2s';
+  let view=params.get('view')==='pair'?'pair':'compare';
+  let selectedId=params.get('sample') || data.samples[0]?.sample_id;
+  const search=$('#sample-search'), scene=$('#scene-filter'), list=$('#sample-list'), panel=$('#selected-example');
+  search.value=params.get('q') || '';
   const scenes=[...new Set(data.samples.map(s=>s.scene_group))].sort();
-  document.querySelector('#scene-filter').insertAdjacentHTML('beforeend',scenes.map(s=>`<option value="${s}">${s.replaceAll('_',' ')}</option>`).join(''));
-  document.querySelectorAll('[data-example-direction]').forEach(button=>button.addEventListener('click',()=>{exampleDirection=button.dataset.exampleDirection;document.querySelectorAll('[data-example-direction]').forEach(b=>b.setAttribute('aria-selected',String(b===button)));renderExamples(true)}));
-  document.querySelector('#search').addEventListener('input',()=>renderExamples(true)); document.querySelector('#scene-filter').addEventListener('change',()=>renderExamples(true));
-  document.querySelector('#load-more').addEventListener('click',()=>{shown+=10;renderExamples()}); document.querySelector('#pause-all').addEventListener('click',()=>document.querySelectorAll('audio').forEach(a=>a.pause()));
-  document.addEventListener('keydown',e=>{if(e.key==='/'&&document.activeElement.tagName!=='INPUT'){e.preventDefault();document.querySelector('#search').focus()}});
-
-  const dialog=document.querySelector('#method-dialog');
-  document.querySelector('#criteria-description').innerHTML=Object.entries(data.geval.criteria).map(([name,text])=>`<div class="criteria-item"><b>${name.replaceAll('_',' ')}</b><span>${text}</span></div>`).join('');
-  document.querySelector('[data-open-method]').addEventListener('click',()=>dialog.showModal()); document.querySelector('.dialog-close').addEventListener('click',()=>dialog.close()); dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close()});
-  document.querySelector('#copy-citation').addEventListener('click',async e=>{await navigator.clipboard.writeText(e.currentTarget.dataset.citation);e.currentTarget.textContent='Copied';setTimeout(()=>e.currentTarget.textContent='Copy BibTeX',1500)});
-  renderResults(); renderExamples();
+  scene.insertAdjacentHTML('beforeend',scenes.map(s=>`<option value="${escape(s)}">${escape(s.replaceAll('_',' '))}</option>`).join(''));
+  if(scenes.includes(params.get('scene')))scene.value=params.get('scene');
+  function filtered(){const q=search.value.trim().toLowerCase();return data.samples.filter(s=>(!scene.value||scene.value===s.scene_group)&&(!q||[s.sample_id,s.audio_caption,s.speech_text].join(' ').toLowerCase().includes(q)));}
+  function pauseAudio(){$$('audio').forEach(a=>a.pause());}
+  function syncURL(){const query=new URLSearchParams({direction,view});if(selectedId)query.set('sample',selectedId);if(search.value.trim())query.set('q',search.value.trim());if(scene.value)query.set('scene',scene.value);history.replaceState(null,'',`?${query}`);}
+  function audio(label,src){return src?`<audio controls preload="none" aria-label="${escape(label)}" src="${escape(src)}"><a href="${escape(src)}">Listen to WAV</a></audio>`:'<p class="missing">Recording unavailable in this snapshot.</p>';}
+  function ratingRows(judgment,system){
+    return `<div class="ratings" aria-label="Five G-Eval criterion ratings">${criteriaFor(direction).map(key=>{
+      const item=judgment?.criteria?.[key], valid=Number.isFinite(item?.score);
+      return `<details class="rating" data-criterion="${key}"><summary><span class="rating-name">${criterionNames[key]}</span><span class="rating-value">${valid?`${item.score}<span> / 5</span>`:'—'}</span><span class="expand-sign" aria-hidden="true">+</span></summary><div class="verdict"><p class="small-label">JUDGE FEEDBACK</p><p>${escape(item?.feedback || 'Feedback unavailable in this snapshot.')}</p><details class="prompt"><summary>Exact evaluation prompt <span aria-hidden="true">↗</span></summary>${item?.prompt?`<p class="prompt-meta">${escape(item.promptVersion || data.geval.promptVersion)}<br>Judge: ${escape(item.judge || 'Not recorded')}</p><pre tabindex="0" aria-label="Exact prompt for ${escape(criterionNames[key])}">${escape(item.prompt)}</pre>`:'<p class="missing">The saved prompt is unavailable in this snapshot.</p>'}</details></div></details>`;
+    }).join('')}</div>`;
+  }
+  function stage(label,value){return `<li><strong>${label}</strong><p${value?'':' class="missing"'}>${escape(value || 'Awaiting saved stage output.')}</p></li>`;}
+  function cascade(sample){const stages=sample.cascadeStages?.[direction]||{},a2s=direction==='a2s';return `<details class="stage-trace"><summary>Follow the cascade <span aria-hidden="true">↗</span></summary><ol>${stage(a2s?'Audio → caption':'Speech → transcript (ASR)',stages.perception)}${stage(a2s?'Caption → speech text (LLM)':'Transcript → audio caption (LLM)',stages.bridge)}<li><strong>${a2s?'Speech text → speech (CosyVoice3)':'Audio caption → audio (Audio-Omni)'}</strong><p>Final recording is playable above.</p></li></ol><p class="quiet">These are generation stages. Dataset reference text is not a substitute for missing stage outputs; TTS input text is not a verified output transcript.</p></details>`;}
+  function output(sample,system){
+    const a2s=direction==='a2s',spec=data.benchmarks[direction].systems.find(s=>s.id===system),files=sample.files;
+    const src=system==='cascade'?(a2s?files.a2s_cascaded:files.s2a_cascaded):system==='flat'?files.a2s_model_a:(a2s?files.a2s_model_b:files.s2a_ours);
+    const judgment=sample.judgments?.[direction]?.[system];
+    const label=spec?.name || (system==='cascade'?'Text cascade':'SpeechAudioLM');
+    const text=sample.outputText?.[direction]?.[system];
+    const values=sample.scores?.[direction]?.[system]||{};
+    return `<article class="system-output"><header><span class="small-label">${system==='cascade'?'CASCADE':'DIRECT MODEL'}</span><h3>${escape(label)}</h3><p class="system-detail">${escape(spec?.detail)}</p></header>${audio(`${label} output for ${sample.sample_id}`,src)}<div class="judgment-heading"><span>G-Eval Audio <small>v6</small></span><strong>${score(judgment?.score)} <small>mean / 5</small></strong></div>${ratingRows(judgment,system)}<p class="rating-instruction">Select a criterion to read its verdict.</p>${Object.keys(values).length?`<div class="individual-metrics">${Object.entries(values).map(([key,value])=>`<div>${metricTip(key)}<strong>${score(value)}</strong></div>`).join('')}</div>`:''}${system==='cascade'?cascade(sample):''}<details class="generated-text"><summary>${a2s?'Output transcript':'Output audio caption'}</summary><p${text?'':' class="missing"'}>${escape(text || 'Awaiting a transcript/caption of this generated recording.')}</p></details></article>`;
+  }
+  function pairRecording(sample,isInput){
+    const environmental=(direction==='a2s')===isInput;
+    const label=isInput?'Input':'Paired reference';
+    const kind=environmental?'Environmental audio':'Speech';
+    return `<section class="pair-recording"><div class="recording-label"><span class="small-label">${label.toUpperCase()}</span><span>${kind}</span></div>${audio(`${label} ${kind.toLowerCase()} for ${sample.sample_id}`,environmental?sample.files.reference_audio:sample.files.reference_speech)}<p class="text-label">${environmental?'Dataset caption':'Dataset transcript'}</p><p class="reference-text">${escape(environmental?sample.audio_caption:sample.speech_text)}</p></section>`;
+  }
+  function renderPanel(sample){
+    if(!sample){panel.innerHTML='<div class="empty-state"><h2>No matching examples</h2><p>Try another search or reset the filters.</p></div>';return;}
+    const link=`?direction=${direction}&view=${view}&sample=${encodeURIComponent(sample.sample_id)}`;
+    panel.innerHTML=`<header class="example-title"><p class="small-label">TEST PAIR <span class="sample-id">${escape(sample.sample_id)}</span></p><div><h2>${escape(sample.audio_caption)}</h2><a class="permalink" href="${link}" aria-label="Permanent link to this example">Link ↗</a></div></header><div class="pair-recordings">${pairRecording(sample,true)}${pairRecording(sample,false)}</div><section class="pair-rationale"><span class="small-label">WHY THIS PAIR?</span><p>${escape(sample.reasoning || "Saved pairing rationale unavailable for this example.")}</p><span class="quiet">Generated during dataset construction from the caption; it describes intended context.</span></section><details class="metadata"><summary>Speaker and scene metadata</summary><dl><div><dt>Speaker gender</dt><dd>${escape(sample.speaker_gender)}</dd></div><div><dt>Speaker emotion</dt><dd>${escape(sample.speaker_emotion)}</dd></div><div><dt>Scene group</dt><dd>${escape(sample.scene_group.replaceAll('_',' '))}</dd></div></dl><p>Labels describe the dataset reference; scene groups are coarse curation aids.</p></details>${view==='pair'?'<p class="reference-note">The paired reference is one plausible target. Switch to “Compare outputs” to hear how each system responds to this same input.</p>':`<section class="comparison"><div class="comparison-heading"><h2>Same input. Different systems.</h2><span>${direction==='a2s'?'3':'2'} outputs · 5 criterion scores each</span></div><div class="systems-grid ${direction==='a2s'?'three-systems':'two-systems'}">${(direction==='a2s'?['ours','flat','cascade']:['ours','cascade']).map(s=>output(sample,s)).join('')}</div><p class="reference-note">The reference is one plausible target. Corpus-level metrics (FAD, KAD, Inception Score, KL PaSST) are available on the <a href="results.html">Results page</a>.</p></section>`}`;
+    $$('audio').forEach(a=>{a.addEventListener('play',()=>$$('audio').forEach(other=>{if(other!==a)other.pause();}));a.addEventListener('error',()=>{if(!a.nextElementSibling?.classList.contains('audio-error'))a.insertAdjacentHTML('afterend','<p class="audio-error missing" role="status">Recording could not be loaded. Check the media folder or reload the page.</p>');});});
+  }
+  function render(){
+    pauseAudio();
+    const samples=filtered();
+    if(!samples.some(s=>s.sample_id===selectedId))selectedId=samples[0]?.sample_id;
+    const selected=samples.find(s=>s.sample_id===selectedId),index=samples.indexOf(selected);
+    $('#sample-count').textContent=`${samples.length} / ${data.samples.length} pairs`;
+    list.innerHTML=`<label class="mobile-sample-label" for="mobile-sample">Selected example</label><select class="mobile-sample" id="mobile-sample" aria-label="Select an example">${samples.map(s=>`<option value="${escape(s.sample_id)}"${s.sample_id===selectedId?' selected':''}>${escape(s.audio_caption)}</option>`).join('')}</select><div class="sample-buttons">${samples.map(s=>`<button class="sample-choice" data-sample="${escape(s.sample_id)}"${s.sample_id===selectedId?' aria-current="true"':''}><span class="sample-index">${String(s.sample_index+1).padStart(2,'0')}</span><span><strong>${escape(s.audio_caption)}</strong><small>${escape(s.sample_id)}</small></span></button>`).join('')}</div>`;
+    $('#sample-position').textContent=selected?`Example ${index+1} of ${samples.length}`:'No example selected';
+    $('#previous-sample').disabled=index<=0;$('#next-sample').disabled=index<0||index>=samples.length-1;
+    $$('[data-direction]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.direction===direction)));
+    $$('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===view)));
+    renderPanel(selected);
+    $$('[data-sample]').forEach(button=>button.addEventListener('click',()=>{selectedId=button.dataset.sample;render();$('[data-sample][aria-current="true"]')?.focus({preventScroll:true});}));
+    $('#mobile-sample').addEventListener('change',event=>{selectedId=event.target.value;render();$('#mobile-sample').focus();});
+    syncURL();
+  }
+  search.addEventListener('input',render);scene.addEventListener('change',render);
+  $('#reset-search').addEventListener('click',()=>{search.value='';scene.value='';render();search.focus();});
+  $$('[data-direction]').forEach(b=>b.addEventListener('click',()=>{direction=b.dataset.direction;render();}));
+  $$('[data-view]').forEach(b=>b.addEventListener('click',()=>{view=b.dataset.view;render();}));
+  for(const [id,delta] of [['previous-sample',-1],['next-sample',1]])$('#'+id).addEventListener('click',()=>{const rows=filtered(),index=rows.findIndex(s=>s.sample_id===selectedId);if(rows[index+delta]){selectedId=rows[index+delta].sample_id;render();}});
+  $('#pause-audio').addEventListener('click',pauseAudio);
+  window.addEventListener('popstate',()=>{const p=new URLSearchParams(location.search);direction=p.get('direction')==='s2a'?'s2a':'a2s';view=p.get('view')==='pair'?'pair':'compare';selectedId=p.get('sample');search.value=p.get('q')||'';scene.value=scenes.includes(p.get('scene'))?p.get('scene'):'';render();});
+  render();
 })();

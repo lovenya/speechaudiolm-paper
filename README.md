@@ -1,30 +1,18 @@
-# SpeechAudioLM paper website
+# Contextual Audio–Speech Co-Synthesis paper companion
 
-Static, framework-free site intended for GitHub Pages. `index.html`, `style.css`,
-and `app.js` are the maintained source. `site-data.js` is a tiny development
-fixture; the release builder replaces it with joined evaluation data and copies
-the selected browser-compatible WAV files.
+The repository root is the static GitHub Pages site. `index.html` is its entry
+point; the Dataset, G-Eval Audio, Model, Results, and Examples pages are plain
+HTML, CSS, and JavaScript. The site has no runtime package or API dependency.
 
-Build a 50-example release outside Git:
+The listening workspace contains 100 shared clean-v2 test IDs and 700 WAV files.
+Each of five direction/system combinations has a saved G-Eval Audio v6 judgment
+with five criterion scores, feedback, and the rendered evaluation prompt. The
+paper and evaluator results are still being revised, so the website labels its
+current scores as a v6 snapshot. A `missing-data.json` receipt identifies text
+intermediates and generated-output descriptions awaiting the authors' records.
 
-```bash
-uv run --no-project python scripts/build_paper_website.py \
-  --examples 50 \
-  --output /scratch/lovenya/salm_model_outputs/paper_website_50
-```
-
-Preview it from the repository root:
-
-```bash
-uv run --no-project python -m http.server 8000 \
-  --directory /scratch/lovenya/salm_model_outputs/paper_website_50
-```
-
-Then open `http://localhost:8000`. The exported directory is self-contained and
-can become the root of a dedicated GitHub Pages repository. Keep it outside this
-training repository because it contains hundreds of megabytes of audio.
-
-The builder deliberately keeps corpus-only metrics (FAD, KAD, Inception Score,
-and KL PaSST) out of individual example cards. G-Eval Audio and other sample-level
-metrics may appear per example. Aggregate rows always come from the full clean-v2
-test sets: 2,197 A2S pairs and 1,878 S2A pairs.
+The old 50-example duplicate site was preserved separately as a legacy artifact
+before the 100-example release replaced the root. Git history retains the
+previous root page. The source exporter and release validator are maintained in
+the SALM-model training repository; generated audio and evaluation evidence are
+copied into this publication repository only for the paper supplement.
