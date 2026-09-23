@@ -2,17 +2,6 @@
   "examples": 100,
   "audio_files": 700,
   "selection": "first N rows of the fixed, curated seed-20260917 100-pair bundle",
-  "aggregate_scope": {
-    "a2s": 2197,
-    "s2a": 1878
-  },
   "geval_prompt_version": "geval_audio_plausibility_v6",
-  "missing_fields": 900,
-  "judgment_coverage": {
-    "s2a/ours": 100,
-    "s2a/cascade": 100,
-    "a2s/ours": 100,
-    "a2s/flat": 100,
-    "a2s/cascade": 100
-  }
+  "missing_fields": 900
 }
