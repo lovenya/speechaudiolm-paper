@@ -19,7 +19,10 @@ read its feedback, then expand the saved evaluation prompt. The Results page
 presents full-test objective metrics without repeating per-system coverage
 counts. The G-Eval page includes full-test criterion means, a matched/mismatched
 diagnostic, and highest-/lowest-scoring listening examples for each criterion.
-The Model architecture page is reserved for later content.
+The Model page explains inference in both directions, staged renderer training,
+and the flat and hierarchical acoustic content LMs. Three editable vector
+figures have SVG, PDF and PNG downloads; the PDFs are sized at 174 mm width
+for paper use. The architecture page works without JavaScript.
 
 The old 50-example site was preserved as a legacy artifact before this release.
 The exporter, data checks and source templates live in the SALM-model repository;
